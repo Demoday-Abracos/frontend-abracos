@@ -64,13 +64,13 @@ Esperança: Ser um farol de esperança para aqueles que buscam um novo começo, 
 <h3 align="center">:mechanical_arm: Nossa equipe</h3>
 <br>
 <div align="center">
-<a href="https://www.linkedin.com/in/iarley-souza/"><img src="imagens/Frame 17.PNG" width="200px"></a>
-<a href="https://www.linkedin.com/in/hugo-ribeiro-sousa/"><img src="imagens/Frame 14.PNG" width="200px"></a>
-<a href="https://www.linkedin.com/in/vitorhsant/"><img src="imagens/Frame 18.PNG" width="200px"></a>
-<a href="https://www.linkedin.com/in/hillary-silva-dias-dos-santos-39888a289/"><img src="imagens/Frame 15.PNG" width="200px"></a>
+<a href="https://www.linkedin.com/in/iarley-souza/"><img src="imagens/Frame 17.png" width="200px"></a>
+<a href="https://www.linkedin.com/in/hugo-ribeiro-sousa/"><img src="imagens/Frame 14.png" width="200px"></a>
+<a href="https://www.linkedin.com/in/vitorhsant/"><img src="imagens/Frame 18.png" width="200px"></a>
+<a href="https://www.linkedin.com/in/hillary-silva-dias-dos-santos-39888a289/"><img src="imagens/Frame 15.png" width="200px"></a>
 <br>
-<a href="https://www.linkedin.com/in/victor-ramalho-117396293/"><img src="imagens/Frame 16.PNG" width="200px"></a>
-<a href="https://www.linkedin.com/in/jonathan-silva-9b2248249/"><img src="imagens/Frame 19.PNG" width="200px"></a>
+<a href="https://www.linkedin.com/in/victor-ramalho-117396293/"><img src="imagens/Frame 16.png" width="200px"></a>
+<a href="https://www.linkedin.com/in/jonathan-silva-9b2248249/"><img src="imagens/Frame 19.png" width="200px"></a>
 <img src="imagens/Frame 13.png" width="200px"></a>
 </div>
 
