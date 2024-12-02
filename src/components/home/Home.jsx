@@ -48,7 +48,7 @@ function Home() {
                 </div>
                 <div className='gifs-home'>
                     <div className="parte-baixo-cards">
-                        <img src={Saude} alt="Gif de duas pessoas." />
+                        <img src={Saude} alt="Gif saúde mental." />
                         <h2>Saúde mental</h2>
                     </div>
                     <p>Oferecemos apoio para sua saúde mental, promovendo bem-estar e equilíbrio.</p>

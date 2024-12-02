@@ -10,9 +10,9 @@ const CardCarousel = () => {
     const navigate = useNavigate();
 
     const cards = [
-        { image: 'assets/images/compras.gif', label: 'Compras', route: '/compras' },
-        { image: 'assets/images/escola.gif', label: 'Escola', route: '/escola' },
-        { image: 'assets/images/documento.gif', label: 'Documentos', route: '/documentos' },
+        { image: 'assets/images/compras.gif', label: 'Compras', alt: 'Compras', route: '/compras' },
+        { image: 'assets/images/escola.gif', label: 'Escola', alt: 'Escola', route: '/escola' },
+        { image: 'assets/images/documento.gif', label: 'Documentos', alt: 'Documentos', route: '/documentos' },
         { image: null, label: 'Alimentacao' },
     ];
 

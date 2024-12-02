@@ -42,14 +42,14 @@ function Doe() {
 
             <div className='images_ladoo'>
                 <div className='sames_log'>
-                    <img src={cruz} alt="Cruz Vermelha" />
+                    <img className='img_doe' src={cruz} alt="Cruz Vermelha" />
                     <a href="https://doe.cicv.org.br/salvar-vidas/people/new?utm_source=google&utm_medium=search&utm_campaign=acquisition&utm_content=brand&gclid=Cj0KCQiA_qG5BhDTARIsAA0UHSJMRdU_cFxQeucmKoXz09LE_6a-rRB92WZWvpUy8M4Z8xCAmry89oQaAhuKEALw_wcB" target="_blank" rel="noopener noreferrer">
                         <button className='boton_doe'>Doe</button>
                     </a>
                 </div>
 
                 <div className='sames_log'>
-                    <img src={adus} alt="Instituto Adus" />
+                    <img className='img_doe' src={adus} alt="Instituto Adus" />
                     <a href="https://adus.colabore.org/seja-um-doador/single_step" target="_blank" rel="noopener noreferrer">
                         <button className='boton_doe'>Doe</button>
                     </a>
@@ -67,21 +67,21 @@ function Doe() {
 
             <div className='images_ladoo'>
                 <div className='sames_log'>
-                    <img src={paz} alt="Cruz Vermelha" />
+                    <img className='img_doe' src={paz} alt="Cruz Vermelha" />
                     <a href="https://missaonspaz.org/doar/" target="_blank" rel="noopener noreferrer">
                         <button className='boton_doe'>Doe</button>
                     </a>
                 </div>
 
                 <div className='sames_log'>
-                    <img src={africa} alt="Instituto Adus" />
+                    <img className='img_doe' src={africa} alt="Instituto Adus" />
                     <a href="https://www.ufrgs.br/gaire/africa-do-coracao/" target="_blank" rel="noopener noreferrer">
                         <button className='boton_doe'>Doe</button>
                     </a>
                 </div>
 
                 <div className='sames_log'>
-                    <img src={blibia} alt="ACNUR" />
+                    <img className='img_doe' src={blibia} alt="ACNUR" />
                     <a href="https://bibliaspa.org.br/como-apoiar/" target="_blank" rel="noopener noreferrer">
                         <button className='boton_doe'>Doe</button>
                     </a>
@@ -92,21 +92,21 @@ function Doe() {
 
             <div className='images_ladoo'>
                 <div className='sames_log'>
-                    <img src={cami} alt="Cruz Vermelha" />
+                    <img className='img_doe' src={cami} alt="Cruz Vermelha" />
                     <a href="https://www.cami.org.br/doacoes/" target="_blank" rel="noopener noreferrer">
                         <button className='boton_doe'>Doe</button>
                     </a>
                 </div>
 
                 <div className='sames_log'>
-                    <img src={cemir} alt="Instituto Adus" />
+                    <img className='img_doe' src={cemir} alt="Instituto Adus" />
                     <a href="https://www.centrodamulherimigrante.org" target="_blank" rel="noopener noreferrer">
                         <button className='boton_doe'>Doe</button>
                     </a>
                 </div>
 
                 <div className='sames_log'>
-                    <img src={warmis} alt="ACNUR" />
+                    <img className='img_doe' src={warmis} alt="ACNUR" />
                     <a href="https://warmis.org" target="_blank" rel="noopener noreferrer">
                         <button className='boton_doe'>Doe</button>
                     </a>
@@ -117,21 +117,21 @@ function Doe() {
 
             <div className='images_ladoo'>
                 <div className='sames_log'>
-                    <img src={cibai} alt="Cruz Vermelha" />
+                    <img className='img_doe' src={cibai} alt="Cruz Vermelha" />
                     <a href="https://www.paypal.com/donate/?hosted_button_id=8NZXURC2W9NCE" target="_blank" rel="noopener noreferrer">
                         <button className='boton_doe'>Doe</button>
                     </a>
                 </div>
 
                 <div className='sames_log'>
-                    <img src={cam} alt="Instituto Adus" />
+                    <img className='img_doe' src={cam} alt="Instituto Adus" />
                     <a href="https://scalabrinianas.org/apoie/" target="_blank" rel="noopener noreferrer">
                         <button className='boton_doe'>Doe</button>
                     </a>
                 </div>
 
                 <div className='sames_log'>
-                    <img src={mawon} alt="ACNUR" />
+                    <img className='img_doe' src={mawon} alt="ACNUR" />
                     <a href="https://www.mawon.org/comoapoiar" target="_blank" rel="noopener noreferrer">
                         <button className='boton_doe'>Doe</button>
                     </a>

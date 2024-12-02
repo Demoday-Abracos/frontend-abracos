@@ -8,24 +8,28 @@ function Testemunhas() {
         {
             name: "David Mwangi",
             image: "assets/images/davidM.svg",
+            alt: "Homem Haitiano",
             text: "Este site foi essencial para eu conseguir meus documentos e me estabelecer aqui. As informações são claras e fáceis de entender, e me senti acolhido desde o início.",
             stars: "★★★★★"
         },
         {
             name: "Samuel Okoru",
             image: "assets/images/samuel.svg",
+            alt: "Homem da Áfica do Sul",
             text: "O site me ajudou não só com a documentação, mas também com o apoio psicológico, que foi fundamental para mim.",
             stars: "★★★★★"
         },
         {
             name: "Amina Yusuf",
             image: "assets/images/mulher-comentario.svg",
+            alt: "Mulher Ucraniana",
             text: "Fiquei impressionada com a atenção aos detalhes e o quanto me ajudaram a entender todo o processo burocrático de forma clara e objetiva.",
             stars: "★★★★★"
         },
         {
             name: "Carla Ali",
             image: "assets/images/mulherColombiana.svg",
+            alt: "Mulher indiana",
             text: "Recebi todo o suporte necessário, desde a documentação até o apoio emocional, o que foi extremamente valioso para mim.",
             stars: "★★★★★"
         }

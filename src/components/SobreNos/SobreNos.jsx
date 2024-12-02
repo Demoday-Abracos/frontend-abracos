@@ -8,6 +8,7 @@ function SobreNos() {
                 <Descricao
                     imagem='assets/images/alvo.svg'
                     titulo='Missão'
+                    alt = 'Missão'
                     texto='Promover um ambiente acolhedor para imigrantes e refugiados, onde possam reconstruir suas vidas no Brasil por meio do acesso a recursos essenciais, como oportunidades de emprego, educação e apoio social.'
                 />
             </div>
@@ -16,6 +17,7 @@ function SobreNos() {
                 <Descricao
                     imagem='assets/images/olho.svg'
                     titulo='Visão'
+                    alt = 'Visão'
                     texto='Nossa visão é acreditar na empatia que o ser humano é capaz de ter e que ainda e possível haver abraços.'
                 />
             </div>
@@ -24,6 +26,7 @@ function SobreNos() {
                 <Descricao
                     imagem='assets/images/coracao.svg'
                     titulo='Valores'
+                    alt = 'Valores'
                     texto='<strong>Inclusão & Diversidade</strong>: Valorizamos a riqueza cultural e social trazida por diferentes culturas. Acreditamos que todos, independentemente de sua origem, têm o direito de se sentir incluso e parte da sociedade. Crescimento: Valorizar o desenvolvimento pessoal e profissional dos imigrantes, fornecendo os recursos para que alcancem seu potencial. Esperança: Ser um farol de esperança para aqueles que buscam um novo começo, oferecendo ferramentas para o sucesso e a reintegração.'
                     dangerouslySetInnerHTML={{ __html: '<strong>Inclusão & Diversidade</strong>: Valorizamos a riqueza cultural e social trazida por diferentes culturas. Acreditamos que todos, independentemente de sua origem, têm o direito de se sentir incluso e parte da sociedade. Crescimento: Valorizar o desenvolvimento pessoal e profissional dos imigrantes, fornecendo os recursos para que alcancem seu potencial. Esperança: Ser um farol de esperança para aqueles que buscam um novo começo, oferecendo ferramentas para o sucesso e a reintegração.' }}
                 />
