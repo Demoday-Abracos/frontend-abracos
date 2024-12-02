@@ -65,12 +65,12 @@ Esperança: Ser um farol de esperança para aqueles que buscam um novo começo, 
 <br>
 <div align="center">
 <a href="https://www.linkedin.com/in/iarley-souza/"><img src="public/assets/images/Iarley.png" width="200px"></a>
-<a href="https://www.linkedin.com/in/hugo-ribeiro-sousa/"><img src="public/assets/images/Hugo.PNG" width="200px"></a>
-<a href="https://www.linkedin.com/in/vitorhsant/"><img src="public/assets/images/Vitor.PNG" width="200px"></a>
-<a href="https://www.linkedin.com/in/hillary-silva-dias-dos-santos-39888a289/"><img src="public/assets/images/Hillary.PNG" width="200px"></a>
+<a href="https://www.linkedin.com/in/hugo-ribeiro-sousa/"><img src="public/assets/images/Hugo.png" width="200px"></a>
+<a href="https://www.linkedin.com/in/vitorhsant/"><img src="public/assets/images/Vitor.png" width="200px"></a>
+<a href="https://www.linkedin.com/in/hillary-silva-dias-dos-santos-39888a289/"><img src="public/assets/images/Hillary.png" width="200px"></a>
 <br>
-<a href="https://www.linkedin.com/in/victor-ramalho-117396293/"><img src="public/assets/images/Victor.PNG" width="200px"></a>
-<a href="https://www.linkedin.com/in/jonathan-silva-9b2248249/"><img src="public/assets/images/Jonathan.PNG" width="200px"></a>
+<a href="https://www.linkedin.com/in/victor-ramalho-117396293/"><img src="public/assets/images/Victor.png" width="200px"></a>
+<a href="https://www.linkedin.com/in/jonathan-silva-9b2248249/"><img src="public/assets/images/Jonathan.png" width="200px"></a>
 <img src="public/assets/images/Ryan.png" width="200px"></a>
 </div>
 
