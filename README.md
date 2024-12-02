@@ -34,7 +34,7 @@ Esperança: Ser um farol de esperança para aqueles que buscam um novo começo, 
   <img src="https://icongr.am/devicon/javascript-original.svg?size=100&color=currentColor" width="80px">
   <img src="https://icongr.am/devicon/react-original.svg?size=100&color=000000" width="80px">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" width="80px">
-  <img src="https://icongr.am/devicon/python-original.svg?size=100&color=currentColor" width="80px">
+  
   
 <h4>:small_orange_diamond: Back-end<h4>
   <img src="https://icongr.am/devicon/java-original.svg?size=100&color=currentColor" width="80px">
