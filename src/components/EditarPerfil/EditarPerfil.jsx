@@ -12,7 +12,7 @@ function PaginaPerfil() {
             <li>Terapeutas</li>
             <li>Workshops</li>
             <li>Recursos</li>
-            <li>Documentos</li>
+            <li>Documentos</li>0
             <li>Contato</li>
           </ul>
         </nav>
