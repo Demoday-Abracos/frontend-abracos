@@ -20,6 +20,7 @@ import Videoaulas from './components/videoaulas/Videoaulas';
 import Voluntarios from './components/voluntarios/Voluntarios';
 import ScrollToTop from './components/Util/ScrollToTop';
 import ChatbotWidget from './components/ChatbotWidget/ChatbotWidget';
+import EditarPerfil from './components/EditarPerfil/EditarPerfil';
 
 function AppContent() {
 
@@ -62,6 +63,7 @@ function AppContent() {
           <Route path='Acolhimento' element={<Acolhimento/>}/>
           <Route path='cad' element={<Cadastro/>}/>
           <Route path='login' element={<Login/>}/>
+          <Route path='EditarPerfil' element={<EditarPerfil/>}></Route>
         </Routes>
       {!isFrequenciaRoute && <Footer />}
     </>
