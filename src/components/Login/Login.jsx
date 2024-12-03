@@ -45,7 +45,7 @@ function Login() {
                                         Não tem uma conta? <span>Crie uma conta</span>
                                     </Link>
                                     </div>
-                                    <button type="submit" className="login__btnAccess">Acessar</button>
+                                    <Link to='/EditarPerfil'><button type="submit" className="login__btnAccess">Acessar</button></Link>
                                 </form>
                                 <div className="login__footer">
                                     <a href="#">Esqueceu a senha?</a>
