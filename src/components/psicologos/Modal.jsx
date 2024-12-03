@@ -7,7 +7,7 @@ function Modal({ onClose, psicologo }) {
             <div className="modal-content">
                 <button onClick={onClose} className="modal-close-button">Fechar</button>
                 <div className="modal-header">
-                    <img src={psicologo.foto} alt={psicologo.titulo} className="modal-psicologo-imagem" />
+                    <img src={psicologo.foto} alt={"imagem do psicologo"} className="modal-psicologo-imagem" />
                     <div className="header-text">
                         <h2>Agendamento de Sessão</h2>
                         <p><strong>Consulta - {psicologo.titulo}</strong></p>

@@ -31,7 +31,7 @@ function Footer() {
                     </ul>
                     
                 </div>
-                <img className="footer-image" src="assets/images/desenho-footer.png" alt="Pessoas" />
+                <img className="footer-image" src="assets/images/desenho-footer.png" alt="desenho de pessoas imigrantes" />
             </div>
 
             <div className="footer-bottom">

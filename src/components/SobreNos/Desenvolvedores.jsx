@@ -6,7 +6,7 @@ function Desenvolvedores ({imagens, texto,titulo ,foto1, foto2 ,texto2, LLink}) 
         <>
         <div className='Fundoslaranja'>
             <div className='img-laranja'>
-                <img src={imagens} alt="" />
+                <img src={imagens} alt="desenvolvedor" />
             </div>
             <div className='dentro-laranja'>
                 <h1>{titulo}</h1>

@@ -119,6 +119,9 @@ mark {
     width: 80%;
     margin: 0 auto;
 }
+.vozes{
+    font-size: 32px;
+}
 
 /*Pagina dos cards*/
 .fra_efeito {

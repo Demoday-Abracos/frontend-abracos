@@ -5,7 +5,7 @@ import Bolas2 from '../../../public/assets/images/bolas2.svg'
 function Videoaulas() {
     return(
         <section className='section_aulas'>
-            <section className='section_img'>
+            <section alt="mexendo no computador" className='section_img'>
                 <div className='img_comp'>
                     <h1>Aulas de <span>Português</span></h1>
                 </div>

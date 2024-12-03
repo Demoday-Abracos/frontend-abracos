@@ -13,16 +13,19 @@ function Psicologos() {
         {
             foto: 'assets/images/drca.svg',
             titulo: 'Dra. Camilla Loures',
+            alt: "Psicologa brasileira Negra",
             paragrafo: 'Psicologia do Trauma e Resiliência Emocional',
         },
         {
             foto: 'assets/images/DrRichard.svg',
             titulo: 'Dr. Richard Gomes',
+            atl: "Psicologo francês Branco",
             paragrafo: 'Psicologia da Inclusão e apoio ',
         },
         {
             foto: 'assets/images/DrRaquel.svg',
             titulo: 'Dra. Raquel Sanches',
+            alt: "Psicologa bolíviana Branca",
             paragrafo: 'Psicologia do Estresse e Bem-Estar Mental',
         }
     ];
@@ -63,15 +66,15 @@ function Psicologos() {
                     <p>Acompanhe os privilégios de nossos serviços</p>
                 </div>
                 <div className='imagens'>
-                    <Beneficios foto='assets/images/beneficios1.svg' texto='Consultas sem custo' />
-                    <Beneficios foto='assets/images/beneficios2.svg' texto='Atendimentos online' />
-                    <Beneficios foto='assets/images/beneficios3.svg' texto='Tratamento acompanhado' />
+                    <Beneficios foto='assets/images/beneficios1.svg' alt="consulta com paciente" texto='Consultas sem custo' />
+                    <Beneficios foto='assets/images/beneficios2.svg' alt="imigrante marca as consultas" texto='Atendimentos online' />
+                    <Beneficios foto='assets/images/beneficios3.svg' alt="psicologo conversa com duas pessoas" texto='Tratamento acompanhado' />
                 </div>
             </section>
 
             <section className='Formulario'>
                 <div className='juncao'>
-                    <img src="assets/images/fomsal.svg" alt="Formulário" />
+                    <img src="assets/images/fomsal.svg" alt="Entregue de um formulário" />
                     <div className='envolta'>
                         <div className='ladoaperto'>
                             <h1>Seja a Mudança!</h1>

@@ -8,7 +8,7 @@ function Trabalhadores ({foto, titulo, paragrafo, trabalhador}) {
             <section className='borda'>
                 <div className='tudooo'>
                     <div className='foto'>
-                        <img src={foto} alt={trabalhador} />
+                        <img src={foto} alt={"acolhimento com mãos entrelaçadas"} />
                     </div>
                     <div className='cards_psicologos'>
                         <h4>{titulo}</h4>
