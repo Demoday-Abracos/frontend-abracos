@@ -1,82 +1,73 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .Editar-container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  }
-  
-  .becalho {
-    background-color: #444;
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .becalho ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .becalho li {
-    cursor: pointer;
-  }
-  
-  .conteudo-principal {
-    display: flex;
-    flex: 1;
-  }
-  
-  .menu-lateral {
-    background-color: #ff7043;
-    color: white;
-    padding: 20px;
-    width: 25%;
-  }
-  
-  .avatar-usuario {
-    background-color: #f3f3f3;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    margin-bottom: 10px;
-  }
-  
-  .detalhes-perfil {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .detalhes-perfil h2 {
-    color: #ff7043;
-  }
-  
-  form label {
-    display: block;
-    margin-bottom: 15px;
-  }
-  
-  form input[type="text"],
-  form input[type="email"] {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-  }
-  
-  form button {
-    background-color: #0056b3;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  }
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #ff6b01;
+  color: white;
+  padding: 20px;
+}
+
+.user-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-avatar {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.edit-profile {
+  margin-top: 10px;
+  color: white;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.profile-form {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.profile-form h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.radio-group label {
+  margin-right: 15px;
+}
+
+.save-button {
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}

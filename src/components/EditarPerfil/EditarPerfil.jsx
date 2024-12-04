@@ -1,66 +1,52 @@
-import React from "react";
+import React from 'react';
 
-
-
-function EditarPerfil() {
+const EditarPerfil = () => {
   return (
-    <div className="Editar-container">
-      <header className="becalho">
-        <h1>Bem-Estar</h1>
-        <nav>
+    <div className="perfil-container">
+      <aside className="sidebar">
+        <div className="user-info">
+          <div className="user-avatar">ExemploPessoa_</div>
+          <button className="edit-profile">✏️ Editar Perfil</button>
+        </div>
+        <nav className="menu">
           <ul>
-            <li>Início</li>
-            <li>Terapeutas</li>
-            <li>Workshops</li>
-            <li>Recursos</li>
-            <li>Documentos</li>
-            <li>Contato</li>
+            <li>📚 Minhas Aulas</li>
+            <li>📩 Caixa de entrada</li>
+            <li>👤 Minha conta</li>
           </ul>
         </nav>
-        <div className="icone-perfil">👤</div>
-      </header>
-      <main className="conteudo-principal">
-        <aside className="menu-lateral">
-          <div className="perfil-usuario">
-            <div className="avatar-usuario">UsuarioDemo_</div>
-            <button className="botao-editar">Alterar Perfil</button>
+      </aside>
+
+      <main className="profile-form">
+        <h1>Meu Perfil</h1>
+        <p>Gerenciar e proteger sua conta</p>
+        <form>
+          <div className="form-group">
+            <label>Nome de usuário</label>
+            <input type="text" placeholder="Nome de usuário" />
+            <small>Nome de usuário pode ser alterado apenas uma vez.</small>
           </div>
-          <ul>
-            <li>Meus Cursos</li>
-            <li>Mensagens</li>
-            <li>Configurações</li>
-          </ul>
-        </aside>
-        <section className="detalhes-perfil">
-          <h2>Perfil do Usuário</h2>
-          <form>
-            <label>
-              Nome de Login
-              <input type="text" placeholder="Nome de login" />
-              <small>O nome de login só pode ser alterado uma vez.</small>
-            </label>
-            <label>
-              Endereço de Email
-              <input type="email" placeholder="Insira seu email" />
-            </label>
-            <label>
-              Gênero
-              <div>
-                <input type="radio" name="genero" value="masculino" /> Masculino
-                <input type="radio" name="genero" value="feminino" /> Feminino
-                <input type="radio" name="genero" value="outro" /> Outro
-              </div>
-            </label>
-            <label>
-              Documento/Data de Nascimento
-              <input type="text" placeholder="Informe os dados" />
-            </label>
-            <button type="submit">Atualizar</button>
-          </form>
-        </section>
+          <div className="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div className="form-group">
+            <label>Sexo</label>
+            <div className="radio-group">
+              <label><input type="radio" name="sexo" value="masculino" /> Masculino</label>
+              <label><input type="radio" name="sexo" value="feminino" /> Feminino</label>
+              <label><input type="radio" name="sexo" value="outro" /> Outro</label>
+            </div>
+          </div>
+          <div className="form-group">
+            <label>CPF/Data de nascimento</label>
+            <a href="#!">Preencher agora</a>
+          </div>
+          <button type="submit" className="save-button">Salvar</button>
+        </form>
       </main>
     </div>
   );
-}
+};
 
 export default EditarPerfil;
