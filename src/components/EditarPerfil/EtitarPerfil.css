@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Editar-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .becalho {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .becalho ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .becalho li {
+    cursor: pointer;
+  }
+  
+  .conteudo-principal {
+    display: flex;
+    flex: 1;
+  }
+  
+  .menu-lateral {
+    background-color: #ff7043;
+    color: white;
+    padding: 20px;
+    width: 25%;
+  }
+  
+  .avatar-usuario {
+    background-color: #f3f3f3;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .detalhes-perfil {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .detalhes-perfil h2 {
+    color: #ff7043;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  form button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }

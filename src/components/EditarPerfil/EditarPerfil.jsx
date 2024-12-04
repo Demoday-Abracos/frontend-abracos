@@ -1,10 +1,11 @@
 import React from "react";
 import '../Styles/EditarPerfil.css';
 
-function PaginaPerfil() {
+
+function EditarPerfil() {
   return (
-    <div className="pagina-container">
-      <header className="cabecalho">
+    <div className="Editar-container">
+      <header className="becalho">
         <h1>Bem-Estar</h1>
         <nav>
           <ul>
@@ -12,7 +13,7 @@ function PaginaPerfil() {
             <li>Terapeutas</li>
             <li>Workshops</li>
             <li>Recursos</li>
-            <li>Documentos</li>0
+            <li>Documentos</li>
             <li>Contato</li>
           </ul>
         </nav>
@@ -62,4 +63,4 @@ function PaginaPerfil() {
   );
 }
 
-export default PaginaPerfil;
+export default EditarPerfil;
