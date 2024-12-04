@@ -1,5 +1,5 @@
 import React from "react";
-import '../Styles/EditarPerfil.css';
+
 
 
 function EditarPerfil() {
