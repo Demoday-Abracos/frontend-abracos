@@ -1,0 +1,169 @@
+/* Estilo geral da aplicação */
+.app-container {
+    display: flex;
+    height: 100vh; /* Altura total da tela */
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* Sidebar (laranja) */
+  .sidebar {
+    background-color: #ff6f00; /* Fundo laranja */
+    color: #fff;
+    width: 50%; /* Sidebar ocupa metade da largura */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: flex-start; /* Alinha o conteúdo ao topo */
+    height: 100vh; /* Altura total da tela */
+    box-sizing: border-box;
+  }
+  
+  .profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-avatar {
+    background-color: #ffa726;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .edit-profile {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .menu {
+    margin-top: 10px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 10px 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .menu li:hover {
+    text-decoration: underline;
+  }
+  
+  /* Formulário de perfil (branco) */
+  .profile-form {
+    width: 50%; /* Quadro branco ocupa metade da largura */
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.1);
+    height: 100vh; /* Altura total da tela */
+  }
+  
+  .profile-form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-form p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 30px;
+  }
+  
+  .profile-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  small {
+    font-size: 12px;
+    color: #999;
+    margin-top: 5px;
+  }
+  
+  .gender-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .gender-section span {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .gender-section label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+  }
+  
+  .fill-now {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 5px;
+  }
+  
+  .fill-now:hover {
+    text-decoration: underline;
+  }
+  
+  .save-button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Ajustes de ícones */
+  .menu li img {
+    width: 24px;
+    height: 24px;
+  }

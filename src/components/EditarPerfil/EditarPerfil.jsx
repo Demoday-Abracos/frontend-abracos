@@ -1,52 +1,60 @@
-import React from 'react';
+import React from "react";
+import "..//Styles/EditarPerfil.css";
 
-const EditarPerfil = () => {
+function EditarPerfil() {
   return (
-    <div className="perfil-container">
-      <aside className="sidebar">
-        <div className="user-info">
-          <div className="user-avatar">ExemploPessoa_</div>
+    <div className="app-container">
+      <div className="sidebar">
+        <div className="profile-section">
+          <div className="profile-avatar">ExemploPessoa_</div>
           <button className="edit-profile">✏️ Editar Perfil</button>
         </div>
         <nav className="menu">
           <ul>
-            <li>📚 Minhas Aulas</li>
+            <li>📹 Minhas Aulas</li>
             <li>📩 Caixa de entrada</li>
-            <li>👤 Minha conta</li>
+            <li>🙍 Minha conta</li>
           </ul>
         </nav>
-      </aside>
-
-      <main className="profile-form">
-        <h1>Meu Perfil</h1>
+      </div>
+      <div className="profile-form">
+        <h2>Meu Perfil</h2>
         <p>Gerenciar e proteger sua conta</p>
         <form>
-          <div className="form-group">
-            <label>Nome de usuário</label>
-            <input type="text" placeholder="Nome de usuário" />
-            <small>Nome de usuário pode ser alterado apenas uma vez.</small>
+          <label>
+            Nome de usuário
+            <input type="text" placeholder="Digite seu nome de usuário" />
+            <small>Nome do usuário pode ser alterado apenas uma vez.</small>
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="Digite seu email" />
+          </label>
+          <div className="gender-section">
+            <span>Sexo</span>
+            <label>
+              <input type="radio" name="gender" value="masculino" /> Masculino
+            </label>
+            <label>
+              <input type="radio" name="gender" value="feminino" /> Feminino
+            </label>
+            <label>
+              <input type="radio" name="gender" value="outro" /> Outro
+            </label>
           </div>
-          <div className="form-group">
-            <label>Email</label>
-            <input type="email" placeholder="Email" />
-          </div>
-          <div className="form-group">
-            <label>Sexo</label>
-            <div className="radio-group">
-              <label><input type="radio" name="sexo" value="masculino" /> Masculino</label>
-              <label><input type="radio" name="sexo" value="feminino" /> Feminino</label>
-              <label><input type="radio" name="sexo" value="outro" /> Outro</label>
-            </div>
-          </div>
-          <div className="form-group">
-            <label>CPF/Data de nascimento</label>
-            <a href="#!">Preencher agora</a>
-          </div>
-          <button type="submit" className="save-button">Salvar</button>
+          <label>
+            CPF/Data de nascimento
+            <a href="#!" className="fill-now">
+              Preencher agora
+            </a>
+          </label>
+          <button type="submit" className="save-button">
+            Salvar
+          </button>
         </form>
-      </main>
+      </div>
     </div>
   );
-};
+}
 
 export default EditarPerfil;
