@@ -1,12 +1,15 @@
 import React from "react";
 import "..//Styles/EditarPerfil.css";
+import avatar from "../../../assets/images/avatar.svg";
 
 function EditarPerfil() {
   return (
     <div className="app-container">
       <div className="sidebar">
         <div className="profile-section">
-          <div className="profile-avatar">ExemploPessoa_</div>
+          <div className="profile-avatar">
+            <img src={avatar} />
+          </div>
           <button className="edit-profile">✏️ Editar Perfil</button>
         </div>
         <nav className="menu">

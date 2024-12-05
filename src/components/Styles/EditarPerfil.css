@@ -3,7 +3,8 @@
   display: flex;
   height: 60vh;
   font-family: Arial, sans-serif;
-  background-color: #ff6f00; /* Fundo laranja da página */
+  background-color: #ff6f00;
+  /* Fundo laranja da página */
   justify-content: center;
   align-items: center;
   color: #fff;
@@ -11,9 +12,12 @@
 
 /* Sidebar */
 .sidebar {
-  background-color: #ff6f00; /* Fundo laranja */
-  color: #fff; /* Texto branco */
-  width: 20%; /* Largura da sidebar */
+  background-color: #ff6f00;
+  /* Fundo laranja */
+  color: #fff;
+  /* Texto branco */
+  width: 20%;
+  /* Largura da sidebar */
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -26,16 +30,13 @@
 }
 
 .profile-avatar {
-  background-color: #ffa726;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
-  font-weight: bold;
-  color: #fff;
+  margin-bottom: 20px;
 }
 
 .edit-profile {
@@ -47,20 +48,21 @@
 }
 
 /* Menu lateral */
-.menu {
+.trem {
   width: 100%;
 }
 
-.menu ul {
+.trem ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Espaçamento entre os itens */
+  gap: 20px;
+  /* Espaçamento entre os itens */
 }
 
-.menu li {
+.trem li {
   font-size: 18px;
   text-align: center;
   padding: 10px 0;
@@ -70,20 +72,26 @@
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-.menu li:hover {
-  background-color: #ffa726; /* Destaque ao passar o mouse */
+.trem li:hover {
+  background-color: #ffa726;
+  /* Destaque ao passar o mouse */
   border-color: #fff;
-  color: #333; /* Contraste para o texto */
+  color: #333;
+  /* Contraste para o texto */
 }
 
 /* Estilo do formulário de perfil */
 .profile-form {
   flex: 1;
-  background-color: #fff; /* Fundo branco */
+  background-color: #fff;
+  /* Fundo branco */
   padding: 40px;
-  border-radius: 5px; /* Bordas arredondadas */
-  max-width: 500px; /* Limita a largura */
-  width: 100%; /* Responsividade */
+  border-radius: 5px;
+  /* Bordas arredondadas */
+  max-width: 500px;
+  /* Limita a largura */
+  width: 100%;
+  /* Responsividade */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -167,7 +175,8 @@ small {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  width: 50%; /* Ajusta a largura do botão */
+  width: 50%;
+  /* Ajusta a largura do botão */
   margin-top: 20px;
 }
 
