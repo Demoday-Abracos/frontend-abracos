@@ -1,20 +1,18 @@
 import React from "react";
-import "..//Styles/EditarPerfil.css";
+import "../Styles/EditarPerfil.css";
 import avatar from "../../../assets/images/avatar.svg";
 
 function EditarPerfil() {
   return (
     <div className="app-container">
-      <div className="sidebar">
-        <div className="profile-section">
+      <div className="sidebar-editar">
           <div className="profile-avatar">
             <img src={avatar} />
+            <button className="edit-profile">✏️ Editar Perfil</button>
           </div>
-          <button className="edit-profile">✏️ Editar Perfil</button>
-        </div>
-        <nav className="menu">
+        <nav className="navinha-perfil">
           <ul>
-            <li>📹 Minhas Aulas</li>
+            <li><a href="">📹 Minhas Aulas</a></li>
             <li>📩 Caixa de entrada</li>
             <li>🙍 Minha conta</li>
           </ul>
