@@ -82,7 +82,7 @@
   width: 100%;
 }
 
-label {
+.label-perfil {
   font-size: 14px;
   color: #333;
 }
@@ -131,7 +131,6 @@ small {
   text-decoration: underline;
 }
 
-/* Botão de salvar */
 .save-button {
   background-color: #007bff;
   color: #fff;
