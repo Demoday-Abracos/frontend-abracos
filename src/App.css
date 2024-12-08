@@ -208,22 +208,32 @@ main {
     }
     .footer-links {
         margin-top: 20px;
+        font-weight: 100;
+    }
+    .footer-links a {
+        font-weight: normal;
     }
     .footer-links h3, .footer-contacts h3 {
         margin-bottom: 10px;
         color: #fff;
         font-size: 12px;
+        
+    }
+    .footer-contacts a {
+        font-weight: normal;
     }
     .footer-links ul li, .footer-contacts ul li {
-        font-size: 0.7em;
+        font-size: 0.5em;
         margin-bottom: 4px;
         color: #ccc;
+        font-weight: 100;
     }
     .footer-container .footer-image {
         display: none;
     }
     .footer-bottom p {
         font-size: 0.7em;
+        
     }
     .footer-container {
         gap: 32px;

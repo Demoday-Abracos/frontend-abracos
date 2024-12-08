@@ -59,18 +59,27 @@ function Psicologos() {
                     </div>
                 ))}
             </section>
-
-            <section className='Laranja'>
-                <div className='textinho'>
-                    <h1>Benefícios</h1>
+            <section className="Laranja">
+                <div className="textinho">
+                    <h1>Benefícios:</h1>
                     <p>Acompanhe os privilégios de nossos serviços</p>
                 </div>
-                <div className='imagens'>
-                    <Beneficios foto='assets/images/beneficios1.svg' alt="consulta com paciente" texto='Consultas sem custo' />
-                    <Beneficios foto='assets/images/beneficios2.svg' alt="imigrante marca as consultas" texto='Atendimentos online' />
-                    <Beneficios foto='assets/images/beneficios3.svg' alt="psicologo conversa com duas pessoas" texto='Tratamento acompanhado' />
+                <div className="imagens">
+                    <div className="tudo_laranja">
+                        <img src="assets/images/beneficios1.svg" alt="Consulta com paciente" />
+                        <p>Consultas sem custo</p>
+                    </div>
+                    <div className="tudo_laranja">
+                        <img src="assets/images/beneficios2.svg" alt="Imigrante marca as consultas" />
+                        <p>Atendimentos online</p>
+                    </div>
+                    <div className="tudo_laranja">
+                        <img src="assets/images/beneficios3.svg" alt="Psicólogo conversa com duas pessoas" />
+                        <p>Tratamento acompanhado</p>
+                    </div>
                 </div>
             </section>
+
 
             <section className='Formulario'>
                 <div className='juncao'>
@@ -79,7 +88,7 @@ function Psicologos() {
                         <div className='ladoaperto'>
                             <h1>Seja a Mudança!</h1>
                             <p>Torne-se um Psicólogo
-                            Voluntário!</p>
+                                Voluntário!</p>
                         </div>
                         <div className='preparadolaranja'>
                             <p className='preparado'>Preparado para começar?</p>

@@ -1,6 +1,6 @@
 /* SECTION 1 */
 .psicoo {
-    width: 100%; 
+    width: 100%;
     background: url(../../../public/assets/images/fundopsi.svg) no-repeat;
     width: 100%;
     height: 580px;
@@ -8,7 +8,29 @@
     background-size: cover;
 }
 
-.fundo_psicologos p{
+.tudo_laranja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tudo_laranja p {
+    position: absolute;
+    background-color: #1A5276;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    top: 90%;
+    padding: 20px;
+}
+
+.fundo_psicologos p {
     font-size: 2.3em;
     margin: 30px 0 0 0;
     font-weight: bold;
@@ -17,17 +39,17 @@
     padding: 150px 0 0 70px;
 }
 
-.passo{
+.passo {
     color: var(--primary-color);
 }
 
-.recomeço{
+.recomeço {
     color: #4B92DB;
 }
 
 /* SECTION 2 */
 
-.we{
+.we {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +61,7 @@
 
 /* SECTION 3 */
 
-.bordaa{
+.bordaa {
     margin-bottom: 100px;
     margin-left: 50px;
     display: flex;
@@ -48,7 +70,7 @@
 }
 
 
-.borda{
+.borda {
     width: 90%;
     height: 550px;
     border: 1px solid;
@@ -57,18 +79,18 @@
 
 }
 
-.borda:hover{
+.borda:hover {
     cursor: pointer;
 }
 
-.especificacao{
+.especificacao {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.especificacao button{
+.especificacao button {
     background-color: var(--primary-color);
     color: #fff;
     border: none;
@@ -78,36 +100,36 @@
     transition: transform 0.3s ease;
 }
 
-.especificacao button:hover{
+.especificacao button:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
 
 
-.foto{
+.foto {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.foto img{
+.foto img {
     width: 95%;
     height: 400px;
 }
 
-.cards_psicologos{
+.cards_psicologos {
     margin-left: 10px;
     display: flex;
     gap: 130px;
 }
 
-.cards_psicologos h4{
+.cards_psicologos h4 {
     font-weight: bold;
     font-size: 15px;
     width: 100%;
 }
 
-.estrela{
+.estrela {
     background-color: #1A5276;
     width: 15%;
     height: 30px;
@@ -120,7 +142,7 @@
     margin-bottom: 20px;
 }
 
-.resumo{
+.resumo {
     width: 100%;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -128,30 +150,47 @@
 
 /* SECTION 4 */
 
-.Laranja{
-    background-color: var(--primary-color);
-    width: 95%;
-    height: 550px;
-    margin: auto;
-    margin-bottom: 100px;
-    border-radius: 20px;
+.Laranja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    width: 90%;
+    padding: 30px;
+    gap: 20px;
+    background-color: #FF6926;
+    color: white;
+    margin-bottom: 60px;
+    border-radius: 10px;
 }
 
-.imagens{
-    position: relative;
+.Laranja h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.Laranja p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.imagens {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    gap: 20px;
 }
 
-.textinho{
+.textinho {
     text-align: center;
     color: #FFFF;
-    margin-bottom: 30px;
-    padding-top: 20px;
 }
 
-.especificacoes{
+.textinho p {
+    margin: 0;
+}
+
+.especificacoes {
     position: absolute;
     top: 330px;
     color: #FFFF;
@@ -166,33 +205,34 @@
     transition: transform 0.3s ease;
 }
 
-.especificacoes:hover{
+.especificacoes:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
 
 /* SECTION 5 */
 
-.Formulario{
+.Formulario {
     display: flex;
     align-items: center;
     justify-content: center;
 
     margin-bottom: 100px;
 }
-.juncao{
+
+.juncao {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.juncao img{
+.juncao img {
     width: 50%;
     height: 380px;
     margin-left: 35px;
 }
 
-.envolta{
+.envolta {
     border: 1px solid;
     width: 80%;
     height: 380px;
@@ -200,25 +240,25 @@
     border-radius: 0 80px 0 0;
 }
 
-.ladoaperto{
+.ladoaperto {
     padding: 60px;
 }
 
-.ladoaperto p{
+.ladoaperto p {
     font-size: 1.2em;
     margin-top: 40px;
     margin-left: 15px;
     width: 70%;
 }
 
-.ladoaperto h1{
+.ladoaperto h1 {
     font-weight: bold;
     font-size: 1.6em;
     margin-left: 15px;
 }
 
 
-.preparadolaranja{
+.preparadolaranja {
     width: 50%;
     height: 40px;
     color: #fff;
@@ -231,7 +271,7 @@
     margin-left: 70px;
 }
 
-.preparadoazul{
+.preparadoazul {
     position: absolute;
     left: 225px;
     bottom: 4px;
@@ -244,48 +284,50 @@
     transition: transform 0.3s ease;
 }
 
-.preparadoazul:hover{
+.preparadoazul:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
 
 /* RESPONSIVO CELULAR */
-@media (width <= 500px){
-    .psicoo{
+@media (width <=500px) {
+    .psicoo {
         background-size: cover;
         height: 300px;
     }
 
-    .fundo_psicologos p{
+    .fundo_psicologos p {
         font-size: 1.5em;
         width: 90%;
         padding: 40px 0 0 10px;
     }
 
-    .we h1{
+    .we h1 {
         font-size: 1.3rem;
         width: 100%;
     }
-    .borda{
+
+    .borda {
         width: 80%;
         margin: auto;
         height: auto;
         align-items: center;
         justify-content: center;
     }
+
     .div-princiii {
         width: 100%;
         margin: auto;
     }
 
-    .bordaa{
+    .bordaa {
         flex-wrap: wrap;
         width: 100%;
         margin: 0;
         gap: 30px;
     }
 
-    .foto img{
+    .foto img {
         width: 100%;
         height: auto;
     }
@@ -297,31 +339,32 @@
         justify-content: space-around;
         margin-top: 20px;
     }
+
     .especificacao button {
         margin-bottom: 20px;
-    
+
     }
 
-    .cards_psicologos h4{
+    .cards_psicologos h4 {
         font-size: 14px;
         width: 50%;
         padding: 0;
     }
 
-    .estrela{
+    .estrela {
         border-radius: 5px;
         width: 30%;
         margin: 0;
     }
 
-    .especificacao p{
+    .especificacao p {
         font-size: 13px;
         padding: 20px 0px 0 14px;
     }
 
     .Laranja {
         width: 85%;
-        height: 1400px;
+        height: 1100px;
         padding: 20px 0;
         margin-bottom: 50px;
         margin: 40px 0 80px 0;
@@ -331,7 +374,7 @@
         font-size: 1.1em;
     }
 
-    .textinho p{
+    .textinho p {
         font-size: 0.8em;
     }
 
@@ -344,6 +387,7 @@
         width: 100%;
         margin-left: 40px;
     }
+
     .Formulario {
         display: flex;
         flex-direction: column;
@@ -351,17 +395,20 @@
         justify-content: center;
         margin-bottom: 50px;
     }
+
     .juncao {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .juncao img {
         width: 85%;
         border: black solid 1px;
         height: auto;
         margin-left: 0;
     }
+
     .envolta {
         width: 85%;
         height: 330px;
@@ -369,6 +416,7 @@
         border-radius: 0 0 100px 0;
         padding: 20px;
     }
+
     .preparadoazul {
         position: absolute;
         width: 70%;
@@ -382,6 +430,7 @@
         justify-content: center;
         border-radius: 10px;
     }
+
     .ladoaperto {
         padding: 20px;
     }
@@ -411,7 +460,7 @@
         justify-content: center;
     }
 
-    .preparado{
+    .preparado {
         font-size: 14px;
         width: 190%;
         padding-left: 10px;
