@@ -185,8 +185,9 @@
 .preparadoo-ok p {
     font-size: 1.3em;
     background-color: var(--terciary-color);
-    padding: 6px;
-    width: 100px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
     border-radius: 15px;
     text-align: center;
     cursor: pointer;
@@ -253,7 +254,8 @@
         margin: 230px auto;
     }
     .preparadoo-ok p{
-        font-size: 1em;
+        padding: 13px;
+        font-size: 0.5em;
         border: 1px solid black;
         
     }

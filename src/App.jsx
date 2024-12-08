@@ -21,6 +21,8 @@ import Voluntarios from './components/voluntarios/Voluntarios';
 import ScrollToTop from './components/Util/ScrollToTop';
 import ChatbotWidget from './components/ChatbotWidget/ChatbotWidget';
 import EditarPerfil from './components/EditarPerfil/EditarPerfil';
+import MinhaConta from './components/MinhaConta/MinhaConta';
+import FaleConosco from './components/FaleConosco/FaleConosco';
 
 function AppContent() {
 
@@ -63,6 +65,7 @@ function AppContent() {
           <Route path='Acolhimento' element={<Acolhimento/>}/>
           <Route path='cad' element={<Cadastro/>}/>
           <Route path='login' element={<Login/>}/>
+          <Route path='FaleConosco' element={<FaleConosco/>}></Route>        <Route path='MinhaConta' element={<MinhaConta/>}></Route>
           <Route path='EditarPerfil' element={<EditarPerfil/>}></Route>
         </Routes>
       {!isFrequenciaRoute && <Footer />}

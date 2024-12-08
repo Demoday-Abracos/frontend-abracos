@@ -12,7 +12,9 @@ function AreaRefugio() {
                     </div>
                     <div className='preparadoo-ok'>
                         <h1>Preparado para começar?</h1>
-                        <p>Clique</p>
+                        <p>
+                            <Link to="/login">Clique aqui</Link>
+                        </p>
                     </div>
                 </div>
 

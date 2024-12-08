@@ -9,6 +9,14 @@ import abrace from '../../../public/assets/images/abrace.svg';
 import acolhida from '../../../public/assets/images/acolhida.svg';
 import fraternidade from '../../../public/assets/images/fraternidade.svg';
 
+import missao from '../../../assets/images/mission.svg';
+import carita from '../../../assets/images/caritan.svg';
+import vidan from '../../../assets/images/vidan.svg';
+
+import refugio from '../../../assets/images/refugion.svg';
+import adus from '../../../assets/images/adusn.svg';
+import caritan from '../../../assets/images/caritans.svg';
+
 function Acolhimento() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedCountry, setSelectedCountry] = useState(null);
@@ -37,14 +45,32 @@ function Acolhimento() {
         ],
         Síria: [
             {
-                img: acolhida,
-                description: "Abrigos emergenciais para refugiados sírios em São Paulo, oferecendo suporte psicológico e jurídico."
+                img: missao,
+                description: "Fornece moradia temporária e apoio integral para haitianos, ajudando com documentação, assistência social e integração no mercado de trabalho."
+            },
+            {
+                img: carita,
+                description: " Oferece apoio específico a haitianos, com serviços de moradia temporária e suporte para integração."
+            },
+            {
+                img: vidan,
+                description: " Este instituto atende haitianos, oferecendo abrigo temporário, apoio psicológico, orientação social e assistência na busca de emprego."
             }
         ],
         Haiti: [
             {
-                img: fraternidade,
-                description: "Moradia temporária para haitianos na região sudeste, com suporte para integração ao mercado de trabalho."
+                img: refugio,
+                description: "Focada em refugiados sírios e de outras nacionalidades, oferece moradia temporária, apoio jurídico e assistência social."
+            },
+
+            {
+                img: adus,
+                description: " Trabalha com refugiados sírios, ajudando com moradia temporária, ensino de português e assistência para inserção no mercado de trabalho."
+            },
+
+            {
+                img: caritan,
+                description: " Organização que presta serviços de acolhimento, moradia temporária e integração social para refugiados sírios e outros grupos em situação de vulnerabilidade."
             }
         ]
     };

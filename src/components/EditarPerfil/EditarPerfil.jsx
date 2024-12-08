@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/EditarPerfil.css";
 import avatar from "../../../assets/images/avatar.svg";
+import { Link } from "react-router-dom";
 
 function EditarPerfil() {
   return (
@@ -14,7 +15,7 @@ function EditarPerfil() {
           <ul>
             <li><a href="">📹 Minhas Aulas</a></li>
             <li>📩 Caixa de entrada</li>
-            <li>🙍 Minha conta</li>
+            <Link to="/MinhaConta">🙍 Minha conta</Link>
           </ul>
         </nav>
       </div>
