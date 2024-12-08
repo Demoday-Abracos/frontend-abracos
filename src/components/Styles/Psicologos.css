@@ -81,7 +81,6 @@
 .especificacao button:hover{
     transform: scale(1.05);
     cursor: pointer;
-    background-color: var(--secondary-color);
 }
 
 
