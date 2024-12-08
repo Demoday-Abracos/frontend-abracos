@@ -7,29 +7,29 @@ import bola_lar from '../../../public/assets/images/bola_laranja_cad.png';
 import bola_azul from '../../../public/assets/images/bola_azul_cad.png';
 
 function Cadastro() {
-    const [nomeCompleto, setNomeCompleto] = useState('');
-    const [email, setEmail] = useState('');
-    const [telefone, setTelefone] = useState('');
-    const [senha, setSenha] = useState('');
+    const [nome_imigrante, setNomeCompleto] = useState('');
+    const [email_imigrante, setEmail] = useState('');
+    const [telefone_imigrante, setTelefone] = useState('');
+    const [senha_imigrante, setSenha] = useState('');
     const [confirmarSenha, setConfirmarSenha] = useState('');
 
     const handleCadastro = async (e) => {
         e.preventDefault(); 
 
-        if (senha !== confirmarSenha) {
+        if (senha_imigrante !== confirmarSenha) {
             alert('As senhas não coincidem!');
             return;
         }
 
         const dados = {
-            nomeCompleto,
-            email,
-            telefone,
-            senha
+            nome_imigrante,
+            email_imigrante,
+            telefone_imigrante,
+            senha_imigrante
         };
 
         try {
-            const response = await fetch('http://localhost:8080/cadastro', {
+            const response = await fetch('http://localhost:8080/imigrantes/inserir', {
                 method: 'POST',
                 credentials: "include",
                 headers: {'Content-Type': 'application/json'},
@@ -73,7 +73,7 @@ function Cadastro() {
                                     className="input_cad"
                                     alt='nome'
                                     placeholder='Ex: Victor Ramalho'
-                                    value={nomeCompleto}
+                                    value={nome_imigrante}
                                     onChange={(e) => setNomeCompleto(e.target.value)}
                                 />
 
@@ -84,7 +84,7 @@ function Cadastro() {
                                     className="input_cad"
                                     alt='email'
                                     placeholder='Ex: VictorRamalho@hotmail.com'
-                                    value={email}
+                                    value={email_imigrante}
                                     onChange={(e) => setEmail(e.target.value)}
                                 />
 
@@ -98,7 +98,7 @@ function Cadastro() {
                                         maxLength={11}
                                         alt='telefone'
                                         placeholder='11959520248'
-                                        value={telefone}
+                                        value={telefone_imigrante}
                                         onChange={(e) => setTelefone(e.target.value)}
                                     />
                                 </div>
@@ -110,7 +110,7 @@ function Cadastro() {
                                     className="input_cad"
                                     alt='senha'
                                     placeholder='Sua senha'
-                                    value={senha}
+                                    value={senha_imigrante}
                                     onChange={(e) => setSenha(e.target.value)}
                                 />
 

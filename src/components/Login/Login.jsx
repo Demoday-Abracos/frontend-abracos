@@ -12,9 +12,8 @@ function Login() {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8080/login', { email, password });
+            const response = await axios.post('http://localhost:8080/imigrantes', { email, password });
             localStorage.setItem('authToken', response.data.token);
-            alert('Login bem-sucedido!');
             navigate('/EditarPerfil');
         } catch (error) {
             alert(error.response?.data?.message || 'Erro ao fazer login');
