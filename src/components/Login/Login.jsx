@@ -12,7 +12,7 @@ function Login() {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8080/imigrantes', { email, password });
+            const response = await axios.post('https://backend.abracos.tech/imigrantes', { email, password });
             localStorage.setItem('authToken', response.data.token);
             navigate('/EditarPerfil');
         } catch (error) {

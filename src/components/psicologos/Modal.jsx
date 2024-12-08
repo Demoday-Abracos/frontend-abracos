@@ -23,7 +23,7 @@ function Modal({ onClose, psicologo }) {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:8080/consulta', {
+            const response = await fetch('https://backend.abracos.tech/consulta', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

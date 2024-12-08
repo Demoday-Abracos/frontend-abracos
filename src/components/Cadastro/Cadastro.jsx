@@ -29,7 +29,7 @@ function Cadastro() {
         };
 
         try {
-            const response = await fetch('http://localhost:8080/imigrantes/inserir', {
+            const response = await fetch('https://backend.abracos.tech/imigrantes/inserir', {
                 method: 'POST',
                 credentials: "include",
                 headers: {'Content-Type': 'application/json'},
