@@ -28,7 +28,7 @@ function Footer() {
                 <div className="footer-contacts">
                     <h3>CONTATOS</h3>
                     <ul>
-                        <li>Fale conosco</li>
+                        <li><Link to="FaleConosco">Fale conosco</Link></li>
                         <li>FAQ</li>
                     </ul>
                     

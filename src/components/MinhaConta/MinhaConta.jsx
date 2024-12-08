@@ -29,7 +29,7 @@ function MinhaConta() {
                         <i className="fas fa-id-card"></i>
                         <p>Cadastro</p>
                     </Link>
-                    <Link to="/ajuda" className="froop_card">
+                    <Link to="/FaleConosco" className="froop_card">
                         <img src={ajuda} alt="Ajuda" className="froop-card-image" />
                         <i className="fas fa-headset"></i>
                         <p>Ajuda</p>
