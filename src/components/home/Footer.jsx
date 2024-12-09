@@ -1,16 +1,22 @@
 import { Link } from "react-router-dom";
+import face from "../../../public/assets/images/Facebook.png"
+import insta from "../../../public/assets/images/insta.png"
+import link from "../../../public/assets/images/linkedin.png"
+import whats from "../../../public/assets/images/whats.png"
+import logo from "../../../public/assets/images/Logo2x.png"
+import foo from "../../../public/assets/images/desenho-footer.png"
 
 function Footer() {
     return (
         <footer>
             <div className="footer-container">
                 <div className="footer-logo">
-                    <img className="logo-central" src="assets/images/Logo2x.png" alt="Logo" />
+                    <img className="logo-central" src={logo} alt="Logo" />
                     <div className="logos">
-                        <img src="assets/images/facebook.png" alt="Facebook logo" />
-                        <img src="assets/images/insta.png" alt="Instagram logo" />
-                        <img src="assets/images/linkedin.png" alt="LinkedIn logo" />
-                        <img src="assets/images/whats.png" alt="WhatsApp logo" />
+                        <img src={face} alt="Facebook logo" />
+                        <img src={insta} alt="Instagram logo" />
+                        <img src={link} alt="LinkedIn logo" />
+                        <img src={whats} alt="WhatsApp logo" />
                     </div>
                 </div>
 
@@ -33,7 +39,7 @@ function Footer() {
                     </ul>
                     
                 </div>
-                <img className="footer-image" src="assets/images/desenho-footer.png" alt="desenho de pessoas imigrantes" />
+                <img className="footer-image" src={foo} alt="desenho de pessoas imigrantes" />
             </div>
 
             <div className="footer-bottom">
