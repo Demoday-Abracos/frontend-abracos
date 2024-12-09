@@ -3,8 +3,10 @@ import '../Styles/Login.css';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import voltar from '../../../public/assets/images/voltar_cad.png';
+import { useAuth } from '../../AuthContext';
 
 function Login() {
+    const { login } = useAuth();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const navigate = useNavigate();
@@ -12,11 +14,20 @@ function Login() {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('https://backend.abracos.tech/imigrantes', { email, password });
-            localStorage.setItem('authToken', response.data.token);
-            navigate('/EditarPerfil');
+            const response = await axios.post('https://backend.abracos.tech/imigrantes/login', {
+                email,
+                password,
+            });
+
+
+            localStorage.setItem('authToken', response.data.token || '');
+            navigate("/")
+            login()
         } catch (error) {
-            alert(error.response?.data?.message || 'Erro ao fazer login');
+            alert(
+                error.response?.data?.message ||
+                'Erro ao fazer login. Verifique suas credenciais e tente novamente.'
+            );
         }
     };
 
@@ -24,7 +35,7 @@ function Login() {
         <section className='colory'>
             <section className='login__section'>
                 <div className='bot'>
-                    <button className='login__botaoVoltar' title='Voltar pra Home' alt='Home'>
+                    <button className='login__botaoVoltar' title='Voltar pra Home'>
                         <Link to='/'>
                             <img className='login__voltarImagem' src={voltar} alt="Voltar" />
                         </Link>
@@ -72,7 +83,7 @@ function Login() {
                                     Não tem uma conta? <span>Crie uma conta</span>
                                 </Link>
                             </div>
-                            <Link to="/EditarPerfil"><button type="submit" className="login__btnAccess">Acessar</button></Link>
+                            <button type="submit" className="login__btnAccess">Acessar</button>
                         </form>
                         <div className="login__footer">
                             <a href="#">Esqueceu a senha?</a>

@@ -11,6 +11,22 @@ header {
     height: 100px;
     width: 100%;
 }
+.login_apos  img{
+    height: 50px;
+    border-radius: 50%;
+}
+.login_apos {
+    font-size: 0;
+    margin-right: 10px;
+}
+.cadastro_apos {
+    margin-right: 50px;
+}
+.cadastro_apos img {
+    width: 50px;
+    margin: auto;
+}
+
 .item-principal.ajuda {
     position: relative; 
     font-size: 16px;
@@ -128,6 +144,11 @@ a {
     gap: 10px;
     margin-right: 30px;
     cursor: pointer;
+}
+.area_cadastroo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .cadastro {
     display: flex;
@@ -286,6 +307,9 @@ a {
         margin-top: 20px;
         margin-right: 30px;
         cursor: pointer;
+    }
+    .area_cadastroo {
+        display: none;
     }
     .cadastro {
         display: flex;

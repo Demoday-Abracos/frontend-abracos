@@ -83,7 +83,7 @@ function Cadastro() {
                                     name="email"
                                     className="input_cad"
                                     alt='email'
-                                    placeholder='Ex: VictorRamalho@hotmail.com'
+                                    placeholder='Ex: nomesobrenome@hotmail.com'
                                     value={email_imigrante}
                                     onChange={(e) => setEmail(e.target.value)}
                                 />

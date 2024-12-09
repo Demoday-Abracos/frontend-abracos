@@ -12,11 +12,21 @@ function EditarPerfil() {
             <button className="edit-profile">✏️ Editar Perfil</button>
           </div>
         <nav className="navinha-perfil">
-          <ul>
-            <li><a href="">📹 Minhas Aulas</a></li>
-            <li>📩 Caixa de entrada</li>
-            <Link to="/MinhaConta">🙍 Minha conta</Link>
-          </ul>
+            <div className="navinhaaaa" style={{display: "flex"}}>
+            <img src="assets/images/minhas-aulas.svg" alt="" />
+              <Link to="/videoaulas">
+                <p>Minhas aulas</p>
+              </Link>
+            </div>
+
+              
+            <div className="navinhaaaa">
+            <img src="assets/images/user-login.svg" alt="imagem do usuario" />
+              <Link to="/MinhaConta">
+                <p>Minha conta</p>
+              </Link>
+            </div>
+            
         </nav>
       </div>
       <div className="profile-form">

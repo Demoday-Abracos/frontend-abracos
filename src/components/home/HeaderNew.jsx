@@ -2,8 +2,10 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import img from '../../../public/assets/images/Logo.png';
 import '../styles/Header.css';
+import { useAuth } from '../../AuthContext';
 
 function HeaderNew() {
+    const { logout } = useAuth();
     const [active, setMode] = useState(false);
     const [showSubmenu, setShowSubmenu] = useState(false);
 
@@ -58,13 +60,13 @@ function HeaderNew() {
                         </ul>
                     </div>
                     <div className="List area_cadastro_menu">
-                        <div className='login'><Link to='login'>Entrar</Link></div>
-                        <div className='cadastro'><Link to='cad'>Cadastre-se</Link></div>
-                    </div>
+                        <div className='login_apos'><Link to='/Editarperfil'> <img src="assets/images/user.svg" alt="imagem usuario" /></Link></div>
+                        <div onClick={logout} className='cadastro_apos'><img src="assets/images/sair_img.svg" alt="botão de sair" /></div>
+                    </div> 
                 </nav>
-                <div className='area_cadastro'>
-                    <div className='login'><Link to='login'>Entrar</Link></div>
-                    <div className='cadastro'><Link to='cad'>Cadastre-se</Link></div>
+                <div className='area_cadastroo'>
+                    <div className='login_apos'><Link to='/Editarperfil'><img src="assets/images/user.svg" alt="imagem usuario" /></Link> </div>
+                    <div onClick={logout} className='cadastro_apos'><img src="assets/images/sair_img.svg" alt="botão de sair" /></div>
                 </div>
             </header>
         </>
