@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import '../Styles/Testemunhas.css';
+import david from '../../../public/assets/images/davidM.svg';
+import samuel from '../../../public/assets/images/samuel.svg';
+import mulher from '../../../public/assets/images/mulher-comentario.svg';
+import colom from '../../../public/assets/images/mulherColombiana.svg';
 
 function Testemunhas() {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -7,28 +11,28 @@ function Testemunhas() {
     const testimonials = [
         {
             name: "David Mwangi",
-            image: "assets/images/davidM.svg",
+            image: david,
             alt: "Homem Haitiano",
             text: "Este site foi essencial para eu conseguir meus documentos e me estabelecer aqui. As informações são claras e fáceis de entender, e me senti acolhido desde o início.",
             stars: "★★★★★"
         },
         {
             name: "Samuel Okoru",
-            image: "assets/images/samuel.svg",
+            image: samuel,
             alt: "Homem da Áfica do Sul",
             text: "O site me ajudou não só com a documentação, mas também com o apoio psicológico, que foi fundamental para mim.",
             stars: "★★★★★"
         },
         {
             name: "Amina Yusuf",
-            image: "assets/images/mulher-comentario.svg",
+            image: mulher,
             alt: "Mulher Ucraniana",
             text: "Fiquei impressionada com a atenção aos detalhes e o quanto me ajudaram a entender todo o processo burocrático de forma clara e objetiva.",
             stars: "★★★★★"
         },
         {
             name: "Carla Ali",
-            image: "assets/images/mulherColombiana.svg",
+            image: colom,
             alt: "Mulher indiana",
             text: "Recebi todo o suporte necessário, desde a documentação até o apoio emocional, o que foi extremamente valioso para mim.",
             stars: "★★★★★"

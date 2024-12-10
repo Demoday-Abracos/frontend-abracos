@@ -53,7 +53,7 @@ function Login() {
                                 <input
                                     type="text"
                                     id="username"
-                                    placeholder="Usuário"
+                                    placeholder="E-mail"
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     required

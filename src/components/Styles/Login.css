@@ -4,6 +4,10 @@
     left: 10px;
     z-index: 10;
 }
+#username{ 
+    border: 0;
+    border-bottom: solid 1px #fff;
+}
 
 .login__botaoVoltar {
     background-color: #ffffff;
@@ -95,21 +99,19 @@
     width: 100%;
     padding: 10px 45px 10px 10px;
     border: none;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #fff;
     background: transparent;
-    color: #fff !important;
+    color: #fff;
     outline: none;
 }
 
 .login__inputGroup input:focus {
-    color: #fff !important; 
+    color: #fff; 
 }
 
 .login__inputGroup input::placeholder {
-    color: #fff !important;
+    color: #fff;
 }
-
-
 
 .login__inputIcon {
     position: absolute;

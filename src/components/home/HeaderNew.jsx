@@ -68,7 +68,7 @@ function HeaderNew() {
                 </nav>
                 <div className='area_cadastroo'>
                     <div className='login_apos' onClick={handleLinkClick}><Link to='/Editarperfil'><img src={user} alt="imagem usuario" /></Link> </div>
-                    <div onClick={logout} className='cadastro_apos'><img src={sair} alt="botão de sair" /></div>
+                    <div onClick={logout} className='cadastro_apos'><img src={sair} alt="botão de sair"/></div>
                 </div>
             </header>
         </>
