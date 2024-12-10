@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../Styles/Cadastro.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 import voltar from '../../../public/assets/images/voltar_cad.png';
 import bola_lar from '../../../public/assets/images/bola_laranja_cad.png';
@@ -12,6 +12,9 @@ function Cadastro() {
     const [telefone_imigrante, setTelefone] = useState('');
     const [senha_imigrante, setSenha] = useState('');
     const [confirmarSenha, setConfirmarSenha] = useState('');
+    const [showModal, setShowModal] = useState(false); 
+
+    const navigate = useNavigate();
 
     const handleCadastro = async (e) => {
         e.preventDefault(); 
@@ -38,7 +41,7 @@ function Cadastro() {
             });
 
             if (response.ok) {
-                alert('Cadastro realizado com sucesso!');
+                setShowModal(true);
             } else {
                 alert('Erro ao realizar cadastro. Tente novamente.');
             }
@@ -140,6 +143,16 @@ function Cadastro() {
                 </nav>
                 <img className='bola_azul' src={bola_azul} alt="bolinha_azul" />
             </section>
+
+            {showModal && (
+                <div className="modal-overlay">
+                    <div className="modal-content">
+                        <h2>Cadastro realizado com sucesso!</h2>
+                        <p>Agora você pode fazer login na plataforma.</p>
+                        <button onClick={() => navigate('/login')} className="modal-button">Ir para login</button>
+                    </div>
+                </div>
+            )}
         </>
     );
 }

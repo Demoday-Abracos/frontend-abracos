@@ -19,10 +19,10 @@ function Login() {
                 password,
             });
 
-
             localStorage.setItem('authToken', response.data.token || '');
-            navigate("/")
-            login()
+            login();
+            navigate("/");
+            window.location.reload();
         } catch (error) {
             alert(
                 error.response?.data?.message ||
