@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import img from '../../../public/assets/images/Logo.png';
+import img from '../../../public/assets/images/logo.png';
 import user from '../../../public/assets/images/user.svg';
 import sair from '../../../public/assets/images/sair_img.svg';
 import '../styles/Header.css';
