@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import face from "../../../public/assets/images/Facebook.png"
+import face from "../../../public/assets/images/facebook.png"
 import insta from "../../../public/assets/images/insta.png"
 import link from "../../../public/assets/images/linkedin.png"
 import whats from "../../../public/assets/images/whats.png"
