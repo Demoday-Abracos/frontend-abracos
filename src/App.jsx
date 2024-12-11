@@ -88,7 +88,7 @@ function AppContent() {
 
 function App() {
   return (
-    <Router basename="/frontend-abracos">
+    <Router>
       <AuthProvider>
         <main className="container-principal">
           <AppContent />
