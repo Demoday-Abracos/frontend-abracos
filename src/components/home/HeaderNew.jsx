@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import img from '../../../public/assets/images/logo.png';
 import user from '../../../public/assets/images/user.svg';
 import sair from '../../../public/assets/images/sair_img.svg';
-import '../styles/Header.css';
+import '../../../src/components/Styles/Header.css';
+
 import { useAuth } from '../../AuthContext';
 
 function HeaderNew() {

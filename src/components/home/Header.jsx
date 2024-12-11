@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import img from '../../../public/assets/images/Logo.png';
-import '../styles/Header.css';
+import '../../../src/components/Styles/Header.css';
 
 function Header() {
     const [active, setMode] = useState(false);
