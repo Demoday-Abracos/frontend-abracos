@@ -13,7 +13,6 @@ const CardCarousel = () => {
         { image: 'assets/images/fazer-compras.gif', label: 'Mercado', alt: 'Mercado', route: '/mercado' },
         { image: 'assets/images/onibus-escolar.gif', label: 'Transporte', alt: 'Transporte', route: '/Transporte' },
         { image: 'assets/images/remedio.gif', label: 'Hospital', alt: 'Hospital', route: '/hospital' },
-        { image: null, label: 'Banco', alt: 'Banco', route: '/Banco' },
     ];
 
     const onCardClick = (route, label) => {

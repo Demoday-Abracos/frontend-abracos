@@ -12,7 +12,7 @@ const CardCarousel = () => {
         { image: 'assets/images/maca.gif', label: 'Alimentação', alt: 'Alimentação', route: '/Alimentação' },
         { image: 'assets/images/banco.gif', label: 'Banco', alt: 'Banco', route: '/Banco'},
         { image: 'assets/images/policia.gif', label: 'Polícia', alt: 'Polícia', route: '/Polícia' },
-        { image: null, label: 'Alimentacao' }, 
+        { image: 'assets/images/banco.gif', label: 'Banco', alt: 'Banco', route: '/Banco' }, 
     ];
 
     const onCardClick = (route, label) => {
